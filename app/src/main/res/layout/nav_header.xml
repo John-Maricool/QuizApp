@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="180dp"
+    android:background="@drawable/title">
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/info"
+        android:padding="15dp"
+        android:text="Quiz App"
+        android:textColor="#ffffff"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tit"
+        android:layout_marginTop="36dp"
+        android:paddingTop="30dp"
+        android:text="@string/my_enail"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+
+</RelativeLayout>

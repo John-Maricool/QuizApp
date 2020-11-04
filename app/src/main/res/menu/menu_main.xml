@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/catholic"
+        android:title="Catholic"/>
+
+
+    <item
+        android:id="@+id/christian"
+        android:title="Bible" />
+
+
+    <item
+        android:id="@+id/random"
+        android:title="Random"/>
+
+</group>
+<item android:title="TODO">
+    <menu>
+
+        <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"
+                />
+
+            <item android:id="@+id/nav_message"
+                android:title="Contact Me"
+                android:icon="@drawable/ic_baseline_contact_phone_24"/>
+
+
+
+            <item android:id="@+id/nav_help"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="Help"/>
+
+            <item android:id="@+id/Exit"
+                android:icon="@drawable/ic_baseline_close_24"
+                android:title="Exit"/>
+
+
+
+        </group>
+
+    </menu>
+</item>
+
+
+</menu>
